@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Signup page</title>
 </head>
-<link rel="stylesheet" href="styles.css">
-<body>
-    <a href="/index.html">To the frontpage</a>
-    <h1>This is a signup form.</h1>
-    <form>
+<body class="form">
+    <div class="navbar">
+        <img class="navbar" src="/img/Ekasoft-banner.jpg" alt="Ekasoft-banner">
+        <ul class="navbar">
+            <li class="navbar"><a class="navbar" href="index.html"><strong>Home</strong></a></li>
+            <li class="navbar"><a class="navbar" href="forms.html"><strong>Sign up!</strong></a></li>
+        </ul>
+    </div>
+
+    <div class="signup">
+    <form class="signup">
+        <h1>This is a signup form.</h1>
         <label for="username">Username:</label>
-        <input type="text" name="username" id="username">
+        <input type="text" name="username" id="username" placeholder="Type your username here"required>
         <br><br>
         <label for="email">Email: </label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" placeholder="Your email" required>
         <br><br>
         <label for="password">Password: </label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" placeholder="your password" required=".{6}">
         <br><br>
 
         <h3>Select age:</h3>
@@ -38,7 +46,10 @@
             <option value="unemployed">Unemployed</option>
         </select>
         <br><br>
-        <button id="submit" name="submit">Submit form</button>
+
+        <input style="margin-bottom: 20px;" type="submit" value="Submit form">
+
     </form>
+    </div>
 </body>
 </html>
