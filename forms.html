@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <a href="/index.html">To the frontpage</a>
+    <h1>This is a signup form.</h1>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username">
+        <br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+        <br><br>
+
+        <h3>Select age:</h3>
+        <input type="radio" name="age" id="age1" value="18-25">
+        <label for="age1">18-25</label>
+        <input type="radio" name="age" id="age2" value="26-35">
+        <label for="age2">26-35</label>
+        <input type="radio" name="age" id="age3" value="36-45">
+        <label for="age3">36-45</label>
+        <input type="radio" name="age" id="age4" value="46+">
+        <label for="age4">46+</label>
+        <br><br>
+
+        <label for="occupation">Select occupation: </label>
+        <select name="occupation" id="occupation">
+            <option value="student">Student</option>
+            <option value="employed">Employed</option>
+            <option value="unemployed">Unemployed</option>
+        </select>
+        <br><br>
+        <button id="submit" name="submit">Submit form</button>
+    </form>
+</body>
+</html>
