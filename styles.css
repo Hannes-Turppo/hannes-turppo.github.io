@@ -6,6 +6,9 @@
 * {
     margin: 0;
 }
+body {
+    background-image: url("img/M05.jpg");
+}
 
 /* #################################################### */
 /* Banner and navbar */
@@ -55,28 +58,58 @@
     font-size: auto;
 }
 /* #################################################### */
-div.frontPageText{
-    width: 80%;
-    margin-left: 10%;
-    object-fit: cover;
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    border-top: 1px solid black;
+    padding: 10px 0px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
-img.frontPageBackground {
-    width: 100%;
-    object-fit: cover;
 }
 
 /* #################################################### */
-/* Game rules */
-div.gameRules {
+.frontPage{
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10%;
-    margin-right: 10%;
+    background-color: white;
+    border-radius: 10px;
 }
-h1.gameRules {
+.frontPage h1 {
+    padding-top: 20px;
+}
+.frontPage p {
+    line-height: 1.5;
+    padding: 0 0 20px 0;
+}
+
+/* #################################################### */
+/* Game rules text*/
+.gameRules {
+    background-color: white;
+    margin: 20px 10%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.gameRules h1 {
+    margin: 0 auto 20px auto;
     text-align: center;
 }
-p.gameRules {
+.gameRules h3 {
+    margin: 10px;
+}
+.gameRules p {
+    line-height: 1.5;
     text-align: left;
+}
+.gameRules ol {
+    padding-left: 15px;
+}
+.gameRules ol li {
+    margin-bottom: 5px;
 }
