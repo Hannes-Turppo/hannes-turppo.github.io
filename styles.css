@@ -3,11 +3,9 @@
 
 /* #################################################### */
 /* common */
-* {
-    margin: 0;
-}
 body {
     background-image: url("img/M05.jpg");
+    margin: 0;
 }
 
 /* #################################################### */
@@ -47,6 +45,7 @@ body {
     overflow: hidden;
 }
 .navbar-nav li {
+    padding: 0;
     float: left;
 }
 .navbar-nav li a {
@@ -60,7 +59,7 @@ body {
 /* #################################################### */
 /* footer */
 footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     background-color: lightgray;
