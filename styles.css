@@ -26,6 +26,7 @@ body {
     margin-top: -20px;
 }
 .navbar-image img {
+    max-height: 30vh;
     display: block;
     margin: 0 auto;
     padding-top: 20px;
@@ -114,5 +115,6 @@ footer {
     padding-left: 15px;
 }
 .gameRules ol li {
+    padding: 5px 0;
     margin-bottom: 5px;
 }
