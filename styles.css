@@ -5,22 +5,27 @@
 /* common */
 body {
     background-image: url("img/M05.jpg");
+    background-size: cover;
     margin: 0;
     min-height: 100vh;
-    min-width: 480px;
+    width: 100%;
+    min-width: 500px;
     position: relative;
-    padding-bottom: 20px;
+    padding: 0 0 20px 0;
 }
 
 /* #################################################### */
 /* Banner and navbar */
 .navbar {
+    width: 100%;
+    min-width: 500px;
     background-color:lightgray;
     border-bottom: 1px solid black;
 }
 
 /* banner image */
 .navbar-image {
+    min-width: 500px;
     width: 100%;
     background-color: black;
     border-radius: 10px;
@@ -32,12 +37,15 @@ body {
     width: auto;
     aspect-ratio: 3/1;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 20px 0 0 0;
+    margin: 0;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 /* navbar */
 .navbar-nav {
+    min-width: 500px;
     padding: 10px;
 }
 .navbar-nav ul {
@@ -66,6 +74,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    min-width: 500px;
     background-color: lightgray;
     border-top: 1px solid black;
     padding: 0;
